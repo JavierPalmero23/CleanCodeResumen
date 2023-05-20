@@ -4,9 +4,7 @@ En la década de 1980 comercializó una gran aplicación de software que fue  mu
 
 ## Nombres con Sentido
 
-Los  nombres  estan  en  todas  partes,  clases,  variables,  ficheros,  etc.  Elegir  nombres  
-relevantes es de suma importancia, y aunque pareciera algo de sentido común, ni es tan  
-común ni es tan sencillo.  
+Los  nombres  estan  en  todas  partes,  clases,  variables,  ficheros,  etc.  Elegir  nombres relevantes es de suma importancia, y aunque pareciera algo de sentido común, ni es tan común ni es tan sencillo.  
 
 	Cada vez que encuentre un nombre de alguna variable que se puede mejorar, CAMBIALA!, la  gente que lea su código se lo 
 	agradecerá. Los nombres deben revelar nuestras intenciones.
@@ -49,6 +47,16 @@ Esto debido a que la	funcionalidad puede cambiar en la siguiente versión pero l
 
 ## Pruebas de Unidad
 
+Las tres leyes del desarrollo guiado por pruebas son las siguientes:
+
+	1. No debe crear código de producción hasta que haya creado una prueba para ello.
+
+	2. No debe crear más de una prueba que falle, el no compilar se considera un fallo.
+
+	3. No debe crear más código de producción del necesario para superar dicha prueba
+	
+Hay que tener en cuenta también que, aunque existan cosas que jamás usaríamos en un entorno de producción, si las podríamos usar en un entorno de pruebas, cada entorno tiene sus propias necesidades.
+
 ## Clases
 
 	Una clase debe comenzar con el listado de variables y luego con las funciones públicas, pero las funciones que se esten 
@@ -68,6 +76,9 @@ No es lo mismo la construcción que el uso que se le va a dar al sistema. Son pr
 
 	Los sistemas de software  deben separar el proceso de inicio, de la lógica de ejecución que toma el testigo tras el 
 	inicio.
+	
+El proceso de inicio es un aspecto que toda aplicación debe abordar. La separación de aspectos es una de las técnicas de diseño más antiguas e importantes de nuestra profesión.
+Una forma de separar la construcción del uso consiste en trasladar todos los aspectos de la construcción a main o módulos involucrados por main. La función principal crea los objetos y se los pasa a la aplicación para que los utilice. 
 
 ## Emergencia
 
