@@ -43,16 +43,15 @@ Esto debido a que la funcionalidad puede cambiar en la siguiente versión, pero 
 
 Somos humanos, por lo tanto, cometemos errores y claramente la programación no es la excepción. Los errores en la programación responden a diferentes tipos, como lo puede ser un error en la argumentación o un error de controladores. 
 
-	El control de errores es una parte importante al programar, puesto que las entradas pueden ser 
-	incorrectas y los dispositivos pueden fallar. 
+	El control de errores es una parte importante al programar, puesto que las entradas pueden ser 	incorrectas y los 
+	dispositivos pueden fallar. 
 
 El control de errores es importante, pero si oscurece la lógica, es incorrecto.
 
 Es recomendable usar excepciones en lugar de códigos devueltos, en el pasado los lenguajes carecían de excepciones y los errores se comprobaban mediante códigos de error, el problema de esto es que había que comprobar el código mediante condicionales y oscurecía la lógica, con las excepciones todo es más sencillo y no hace falta hacer comprobaciones. 
 
-	Es importante ofrecer contexto en las excepciones, que nos indique en que caso y a que se debe 
-	dicha excepción, para ello es aconsejable redactar mensajes de error informativos y pasarlos junto a 
-	las excepciones
+	Es importante ofrecer contexto en las excepciones, que nos indique en que caso y a que se debe 	dicha excepción, para 
+	ello es aconsejable redactar mensajes de error informativos y pasarlos junto a las excepciones
 
 ## Pruebas de Unidad
 
