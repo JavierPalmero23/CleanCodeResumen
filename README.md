@@ -1,7 +1,8 @@
 
 # > Código Limpio
 
-En la década de 1980 comercializó una gran aplicación de software que fue  muy vendida, pero poco a poco las actualizaciones fueron distanciando y la gente dejando  de  usar  el  producto,  ¿por  qué?  La  razón  que  dió  uno  de  los  empleados,  fue  que  comercializaron el software antes de tiempo con fallos en el código, poco después la  empresa desapareció y fue a raíz del mal código, de ahí la importancia del buen código
+Se considera que un código es limpio (en inglés, CLEAN CODE) cuando es fácil de leer y entender; si resuelve problemas evitando agregar complejidad innecesaria, permitiendo que el mantenimiento o adaptaciones, por algún cambio de requerimiento, sean tareas más sencillas.
+Para crear código limpio hay que conocer y poner en práctica un conjunto de principios o técnicas de desarrollo que nos ayudarán a evitar los code smells, es decir, esos síntomas de un programa que te dan el indicio de que existe un problema más profundo.
 
 ## Nombres con Sentido
 
@@ -113,3 +114,11 @@ El código funciona de maravilla, pero otro colega programador necesita realizar
 #### Minimiza el número de clases y métodos.
 
 El dividir funciones de nuestro código en una gran práctica, sin embargo, es importante llegar al punto donde sobredividirlo puesto que se perdería la optimización inicial.
+
+### Concurrencia
+La concurrencia es la capacidad de diferentes partes o unidades de un programa para ejecutarse fuera de orden o en orden parcial, sin afectar el resultado.
+
+	Es importante limitar el ámbito de concurrencia en datos, ya que dos procesos que modifican el mismo campo pueden interferir 
+	entre ellos.
+
+Una forma de evitar datos compartidos es no compartirlos. En algunos casos se pueden copiar objetos y procesarlos como solo lectura, o copiar, recopilar los resultados y combinarlos en un resultado en mismo proceso. Si existe una forma sencilla de evitar los objetos compartidos, el código resultante tendrá menos problemas
