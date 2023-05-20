@@ -8,7 +8,8 @@ Los  nombres  estan  en  todas  partes,  clases,  variables,  ficheros,  etc.  E
 relevantes es de suma importancia, y aunque pareciera algo de sentido común, ni es tan  
 común ni es tan sencillo.  
 
-	Cada vez que encuentre un nombre de alguna variable que se puede mejorar, CAMBIALA!, la  gente que lea su código se lo agradecerá. Los nombres deben revelar nuestras intenciones.
+	Cada vez que encuentre un nombre de alguna variable que se puede mejorar, CAMBIALA!, la  gente que 
+	lea su código se lo agradecerá. Los nombres deben revelar nuestras intenciones.
 
 ## Funciones
 
