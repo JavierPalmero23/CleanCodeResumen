@@ -39,8 +39,6 @@ Cuando los usuarios ven nuestro código queremos que se asombren de lo bien hech
 	
 Esto debido a que la funcionalidad puede cambiar en la siguiente versión pero la buena o mala legibilidad del código seguirá ahí.
 
-## Objetos y Estructura de Datos
-
 ## Procesar Errores
 
 Somos humanos, y por lo tanto cometemos errores y claramente la programación no es la excepción. Los errores en la programación responden a diferentes tipos como lo puede ser un error en la argumerntacion o un error de controladores. 
@@ -55,8 +53,6 @@ Es recomendable usar excepciones en lugar de códigos devueltos, en el pasado lo
 	Es importante ofrecer contexto en las excepciones, que nos indique en que caso y a que se debe 
 	dicha excepción, para ello es aconsejable redactar mensajes de error informativos y pasarlos junto a 
 	las excepciones
-
-## Limites
 
 ## Pruebas de Unidad
 
