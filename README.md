@@ -17,15 +17,13 @@ Una función es una sección de un programa que calcula un valor de manera indep
 
 El objetivo es que el código se pueda leer de arriba hacia abajo, es lo que se denomina la  regla descendente. Que en cada función que vamos bajando se baje en 1 el nivel de  abstracción,  así  solo  quedaría  un  solo  nivel de abstracción en cada función, es algo  complicado de entender, pero es la clave para escribir pequeñas funciones.
 
-El número de argumentos ideal para  una función es cero, luego uno y después dos. Siempre que sea posible hay que evitar la  presencia de tres argumentos. La diferencia entre un método con argumentos y otro que no,  es que cada vez que veamos dicho método tendremos que interpretar el argumento que se  encuentra en otro nivel de abstracción, con 1 es sencillo pero con 2 y con 3 la cosa se  vuelve compleja.
+El número de argumentos ideal para  una función es cero, luego uno y después dos. Siempre que sea posible hay que evitar la  presencia de tres argumentos.
 
-No  es  recomendable  que  las  funciones  tengan  efectos  secundarios,
-
-Las funciones deben hacer algo, o devolver algo, pero no ambas cosas, sería confuso.
+No  es  recomendable  que  las  funciones  tengan  efectos  secundarios. Las funciones deben hacer algo o devolver algo, pero no ambas cosas, sería confuso.
 
 ## Comentarios
 
-Un comentario bueno puede resultar muy útil, un comentario antiguo y que diga mentiras es  un error, los comentarios se suelen usar cuando somos incapaces de expresarnos en el  código, pero lo ideal es dedicar tiempo a podernos expresar correctamente en el código,  porque un comentario antiguo que no haya sido actualizado puede crear confusión, debido  a que el código probablemente se haya modificado con el tiempo.
+Un comentario bueno puede resultar muy útil,pero un comentario antiguo y que diga mentiras es  un error, los comentarios se suelen usar cuando somos incapaces de expresarnos en el  código, pero lo ideal es dedicar tiempo a podernos expresar correctamente en el código,  porque un comentario antiguo que no haya sido actualizado puede crear confusión, debido  a que el código probablemente se haya modificado con el tiempo.
 
 	Aunque los comentarios  sean necesarios en ocasiones, debemos dedicar nuestra energía a minimizarlos.
 
